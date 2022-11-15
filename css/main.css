@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Marck+Script&family=Meddon&family=Underdog&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(205, 154, 12);
+  background: linear-gradient(
+    0deg,
+    rgba(205, 154, 12, 1) 10%,
+    rgba(0, 0, 0, 1) 84%
+  );
+  color: aliceblue;
+  font-family: "Marck Script", cursive;
+}
+
+.accordion-body {
+  background-color: rgba(205, 154, 12, 1);
+}
+.accordion-button {
+  font-size: 3rem;
+  color: var(--bs-accordion-btn-color);
+  background-color: #ffc107;
+}
+.accordion {
+  --bs-accordion-color: #212529;
+  --bs-accordion-bg: #ffc107;
+  --bs-accordion-border-color: #ffc107;
+  --bs-accordion-btn-padding-x: 6rem;
+  --bs-accordion-btn-padding-y: 1.2rem;
+  --bs-accordion-btn-color: #212529;
+  --bs-accordion-btn-bg: var(--bs-accordion-bg);
+  --bs-accordion-btn-icon-width: 1rem;
+  --bs-accordion-btn-focus-border-color: #141619;
+  --bs-accordion-active-color: #ffc107;
+  --bs-accordion-active-bg: #141619;
+}
